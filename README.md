@@ -1,6 +1,6 @@
-# qaiotdb-challenge2022
+# qaiotdb-challenge2022-code
 
-This application asks for a string per standard input with the name of the character to search for and returns the character information, location and episodes that correspond to the character.
+This application asks for a string per standard input with the name of the character to search for in https://rickandmortyapi.com/ and returns the character information, location and episodes that correspond to the character.
 
 ## Setup configuration
 ### Install python
@@ -23,3 +23,7 @@ Execute the next command in the project root directory
 ```bash
 pytest test_code.py
 ```
+
+## Potential improvements
+- Control and error management
+- Code refactoring
