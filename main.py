@@ -34,8 +34,7 @@ def get_input():
 
 
 if __name__ == "__main__":
-#    character_name=get_input()
-    character_name = "Pickle Rick"
+    character_name = get_input()
     character = search_character(character_name)
     location = get_location(character)
     episodes = get_episodes(character)
@@ -43,5 +42,3 @@ if __name__ == "__main__":
     print(f" Character info -> \"species\": {character['species']}, \"type\": {character['type']}")
     print(f" Location/s info -> \"name\": {location['name']}, \"type\": {location['type']}, \"dimension\": {location['dimension']}, \"population\":{len(location['residents'])}")
     print(f" Episode/s info -> \"episode_name\": {episodes['name']}, \"episode_id\": {episodes['episode']}, \"character_count\": {len(episodes['characters'])}")
-
-pass
